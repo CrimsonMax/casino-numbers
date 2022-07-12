@@ -71,3 +71,9 @@
   color: white;
   background-color: black;
 }
+
+@media screen and (max-width: 425px) {
+  .numbers {
+    grid-template-columns: repeat(4, auto);
+  }
+}
